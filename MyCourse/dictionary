@@ -1,1 +1,19 @@
+-Methods-
+.keys()
+.values()
+.items()
+.update()
+.copy()
+.pop()
+.clear()
 
+-Functions-
+print()
+
+
+-Keywords-
+del
+import
+
+-Others-
+f'{}{}'
