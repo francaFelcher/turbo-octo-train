@@ -1,0 +1,108 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+</head>
+
+<body>
+    <div class="background">
+            <ul class="todo-list"><h1>My To-Do List</h1>
+            <p>(Things I should but always procrastinate)</p>
+                <li class="inn-bg">
+                    <input class="main-list-item" type="checkbox" id="movie">
+                    <label for="movie">Watch "miao" Movie</label>
+                    <ul class="sub-item">
+                        <li><a href="https://www.imdb.com/it/title/tt10627706/" class="sub-item-link" target="_blank" class="sub-item-link">"miao" Movie</a></li>
+                    </ul>
+            </li>
+
+            <li class="inn-bg">
+                <input class="main-list-item" type="checkbox" id="fitness">
+                <label for="fitness">Train all the miao Parts of my body</label>
+                <ul class="sub-item">
+                    <li><a href="https://en.people.cn/n3/2021/0420/c90000-9841017.html" target="_blank" class="sub-item-link">random "miao"</a></li>
+                </ul>
+            </li>
+
+            <li class="inn-bg">    
+                <input class="main-list-item" type="checkbox" id="game">
+                <label for="game">Play "miao miao" Game</label>
+                <ul class="sub-item">
+                    <li><a href="https://shop.gamesacademy.it/products/miao-miao?srsltid=AfmBOorCrzgNbEQzejwqYYHRAEyc06LRWa3DpPO0ZvREzIrEvYpDJY-h" target="_blank" class="sub-item-link">"miao miao" game</a></li>
+                </ul>
+            </li>
+
+            <li class="inn-bg">
+                <input class="main-list-item" type="checkbox" id="food">
+                <label for="food">Eat the "miao"</label>
+                <ul class="sub-item">
+                    <li><a href="https://eatmeow.me/" target="_blank" class="sub-item-link">eat "miao"</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rgb(185, 216, 160);
+}
+
+.background {
+  background-color: rgb(229, 249, 229);
+  margin: 30px;
+  max-width: 400px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+.inn-bg {
+  background-color: rgb(245, 255, 245);
+  margin: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+.sub-item-link:link {
+  /* text-decoration: none; */
+  color: rgb(0, 181, 0);
+}
+.sub-item-link:hover {
+  color: #94ff94;
+}
+.sub-item-link:focus {
+  color: #94ff94;
+  border: 2px;     
+}
+.sub-item-link:visited {
+  color: rgb(183, 211, 0);
+}
+.sub-item-link:active {
+  color: #e9ffe9;
+}
+
+
+** end of styles.css **
+
