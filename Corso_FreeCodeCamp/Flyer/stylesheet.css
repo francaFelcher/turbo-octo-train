@@ -1,0 +1,50 @@
+
+.cat {
+  min-width: 20vw;
+  max-width: 50vw;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+body {
+  padding: 50px;
+  margin: 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+  text-align: center;
+  background-color: rgb(36, 30, 30);
+  color: rgb(255, 217, 146);
+}
+
+.sup_p{
+  clear: both;
+}
+
+.p{
+  /* margin-right: 50%;  */
+  width: 50%;
+  padding: auto;
+  margin: auto;
+  float: left;
+}
+
+.box{
+  margin: 10px;
+}
+
+.cat-reserv{
+  margin-top: 10px;
+}
+
+hr {
+  width: 95%;
+  height: 1px;
+  background-color: rgb(167, 64, 0);
+  border-color: black;
+  margin-left: 5%; 
+  margin-right: 5%;
+}
