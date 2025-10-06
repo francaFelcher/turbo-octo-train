@@ -1,0 +1,74 @@
+/* header part of the page */
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+}
+header{
+text-align: center;
+margin: auto;
+width: 30vw;
+}
+
+/* image */
+img{
+    display: flex;
+    width: 20vw;
+    margin: auto;
+    border-radius:  20px;
+    box-shadow:  5px 10px 10px 0px rgba(255, 136, 0, 0.75);
+}
+
+/* inputs */
+.part{
+    margin: 5px 5px ;
+}
+input{
+    display: flex;
+}
+/* inputs_pseudoclasses */
+input:focus, textarea:focus{
+  border: 1px solid orange ;
+
+}
+input:first-of-type{
+  color: orange;
+}
+input:invalid, select:invalid, textarea:invalid {
+  border: 1px solid red;
+}
+input:valid, select:valid, textarea:valid {
+  border: 1px solid green;
+} 
+
+/* radio group */
+.radio-group{
+    border: none;
+}
+.radio-group input[type="radio"] {
+    float:left;
+    width: 10px;
+    margin-right: 5px;
+}
+.radio-group label{
+    float: left;
+    width:50px;
+}
+/* radio group _pseudoclasses*/
+.radio-group input[type="radio"]:checked{
+  border-color: orange;
+  background-color: orange;
+  box-shadow: 0 5px 5px 0;
+  color: orange;
+}
+input[type="radio"]:checked+label{
+  color: orange;
+}
+
+/* button */
+button:hover{
+  background-color: rgb(248, 161, 0);
+  color: white;
+  border: 1px solid rgb(255, 157, 0);
+}
